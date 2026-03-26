@@ -2,7 +2,7 @@
 
 **70+ free hands-on SCORM exercises** covering security awareness, GDPR, AI security, and more. Built for people who want to retain what they learn and share with others.
 
-🔗 **[Browse the full library →](https://learning.ransomleak.com/)** &nbsp;|&nbsp; 🎮 **[Try a live demo →](https://ransomleak.com/exercises/phishing/)**
+🔗 **[Browse the full library →](https://ransomleak.com/learning)** &nbsp;|&nbsp; 🎮 **[Try a live demo →](https://ransomleak.com/exercises/phishing/)**
 
 
 ![demo](/Assets/demo.gif)
