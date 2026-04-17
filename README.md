@@ -1,6 +1,6 @@
 # Free Interactive Security Training Library
 
-**70+ free hands-on SCORM exercises** covering security awareness, GDPR, AI security, and more. Built for people who want to retain what they learn and share with others.
+**80+ free hands-on SCORM exercises** covering security awareness, GDPR, AI security, and more. Built for people who want to retain what they learn and share with others.
 
 ![demo](/Assets/demo.gif)
 
@@ -50,11 +50,30 @@ This library is licensed under [CC BY-NC 4.0][cc-by-nc]. Free to use and share w
 ---
 
 ## Table of Contents
-### AI Security
+### OWASP Top 10 for LLM Applications
 
 #### Exercises
 
-1. [**Clawdbot (Moltbot) Prompt Injection**](https://ransomleak.com/exercises/clawdbot-prompt-injection/) — Stop an AI assistant from leaking data via hidden prompts by identifying injected instructions in documents and recognizing how malicious content can override AI behavior to exfiltrate sensitive information.
+1. [**OpenClaw Prompt Injection**](https://ransomleak.com/exercises/clawdbot-prompt-injection/) — Stop an AI assistant from leaking data via hidden prompts by identifying hidden instructions in documents, preventing data exfiltration through AI tools, and recognizing prompt injection patterns.
+
+2. [**Sensitive Data Exposure Through AI**](https://ransomleak.com/exercises/llm-sensitive-data-disclosure/) — See what happens when confidential data enters a consumer AI tool by recognizing sensitive data categories that should never enter AI prompts, tracing how pasted content persists in AI training data and logs, and applying data classification policies before using AI tools.
+
+3. [**AI Supply Chain Compromise**](https://ransomleak.com/exercises/llm-supply-chain-attack/) — Deploy an AI plugin that hides a backdoor in plain sight by identifying supply chain risks in third-party AI models and plugins, detecting behavioral anomalies in AI components from external sources, and applying vetting procedures before deploying marketplace AI tools.
+
+4. [**AI Training Data Poisoning**](https://ransomleak.com/exercises/llm-data-poisoning/) — Watch poisoned documents corrupt your AI's answers in real time by tracing how manipulated documents alter AI-generated outputs, identifying signs of data poisoning in AI responses, and applying content integrity controls to knowledge base inputs.
+
+5. [**Unsafe AI Output Handling**](https://ransomleak.com/exercises/llm-improper-output-handling/) — Exploit an AI whose outputs flow unchecked into live systems by identifying injection risks when AI outputs feed into downstream systems, tracing how unsanitized AI output enables code execution, and applying output validation controls between AI and connected systems.
+
+6. [**Over-Permissioned AI Agent**](https://ransomleak.com/exercises/llm-excessive-agency/) — Manipulate an AI assistant into misusing its own permissions by identifying excessive permissions granted to AI agents, tracing unauthorized actions performed by manipulated AI tools, and applying least-privilege principles to AI agent configurations.
+
+7. [**AI System Prompt Extraction**](https://ransomleak.com/exercises/llm-system-prompt-leakage/) — Extract hidden instructions from a customer-facing AI chatbot by executing prompt extraction techniques against a live AI chatbot, identifying sensitive information exposed through leaked system prompts, and applying prompt hardening techniques to prevent system instruction disclosure.
+
+8. [**RAG Pipeline Exploitation**](https://ransomleak.com/exercises/llm-vector-embedding-attack/) — Exploit a RAG pipeline to access documents beyond your clearance by identifying access control failures in vector database retrieval, tracing how adversarial embeddings corrupt search results, and applying authorization checks at the retrieval layer of RAG systems.
+
+9. [**AI Hallucination and Misinformation**](https://ransomleak.com/exercises/llm-ai-misinformation/) — Catch fabricated statistics and fake citations in an AI report by detecting hallucinated facts and fabricated sources in AI outputs, verifying AI-generated claims against authoritative references, and applying fact-checking workflows to AI-assisted business content.
+
+10. [**AI Denial-of-Service Attack**](https://ransomleak.com/exercises/llm-unbounded-consumption/) — Launch a denial-of-wallet attack against an unprotected AI API by identifying resource exhaustion vectors in AI API endpoints, tracing how crafted prompts escalate compute costs exponentially, and applying rate limiting and budget controls to AI service deployments.
+
 
 ---
 
